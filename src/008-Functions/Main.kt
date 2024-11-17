@@ -3,12 +3,14 @@ package `008-Functions`
 fun main() {
     helloWorld()
     println(somar(10, 10))
+    println(sum(10, 10))
 }
 
 fun helloWorld(): Unit {
     println("Hello world")
 }
 
+fun sum(x: Int, y: Int) = x + y
 fun somar(a: Int, b: Int): Int {
     return (a + b)
 }
